@@ -1,0 +1,14 @@
+equals(s)               Kiểm tra hai chuỗi giống nhau không (chú ý, toán tử so sánh == kiểm tra hai đối tượng cùng trỏ đến một chuỗi không);
+length()                Trả về độ dài của chuỗi. Ex: String targetString = "Java" => targetString.length() = 4.
+concat()                Nối 2 chuỗi thành 1 chuỗi. Ex: String s1 = "Duc"; String s2 = "Long"; String s3 = s1.concat(s2) = "Duc Long"    |    Có thể là s3 = s1 + s2.
+charAt(int index)       Trả về vị trí index trong chuỗi, kí tự đầu tiên có chỉ số index = 0; Ex: String s1 = "Hoc Java";  s1.chatAt(2)  = "c".
+equalsIgnoreCase(s)     Kiểm tra hai chuỗi giống nhau(không phân biệt chữ hoa/chữ thường). Ex: String s1 = "java"; String s2 = "JAVA";  s2.equalsIgnoreCase(s1) = true.
+replace(old,new)        Tìm và thay thế ký tự chuỗi. Ex: String s1 = "Hoc lap trinh java";  String s2 = s1.replace("java", "JAVA").
+substring(int begin)    Trả về chuỗi bắt đầu từ begin đến hết. Ex: String s1 = "Hoc lap trinh java"; String s2 = s1.substring(2); ouput: " lap trinh java".
+substring(int begin, int end)   Trả về chuỗi bắt đầu từ begin đên end. Ex: String s1 = "Hoc lap trinh java"; String s2 = s1.substring(2, 6); ouput: " lap t".
+toLowerCase()/toUpperCase       Trả về chuỗi mới bằng cách đổi chữ Hoa thành thường (hoặc thường thành Hoa).
+trim()                  Ngắt bỏ khoảng trắng ở đầu và cuỗi.
+toCharArray             Lấy mảng các ký tự.  Ex: String s1 = "Lap trinh" char [] charArray = s2.toCharArray(); output: ["L", "a", "p", " ", "t", "r", "i", "n", "h"].
+contains(s)             Kiểm tra có chứa một chuỗi con. Ex: String s1 = "Hoc java"; s1.contains(j);  Output: true.
+IsEmpty()               Kiểm tra chuỗi có rỗng hay không. Output: true or false.
+split(separator)        Chia chuỗi thành mảng với điểm ngắt là ký tự separator. Ví dụ tách chuỗi thành các từ str.split(" ");
